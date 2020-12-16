@@ -15,6 +15,8 @@ public class Product {
 	private String name;
 	
 	private Double price;
+	
+	private int stock;
 
 	public Long getId() {
 		return id;
@@ -24,20 +26,28 @@ public class Product {
 		this.id = id;
 	}
 
-	public String getname() {
+	public String getName() {
 		return name;
 	}
 
-	public void setname(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 
-	public Double getprice() {
+	public Double getPrice() {
 		return price;
 	}
 
-	public void setprice(Double price) {
+	public void setPrice(Double price) {
 		this.price = price;
+	}
+
+	public int getStock() {
+		return stock;
+	}
+
+	public void setStock(int stock) {
+		this.stock = stock;
 	}
 	
 	

@@ -12,6 +12,10 @@
             <input matInput placeholder="Preço (R$)"
                 [(ngModel)]="product.price" name="price">
         </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Estoque"
+                [(ngModel)]="product.stock" name="stock">
+        </mat-form-field>
     </form>
 
     <button mat-raised-button (click)="updateProduct()" color="primary">

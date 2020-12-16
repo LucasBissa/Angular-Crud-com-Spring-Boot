@@ -12,6 +12,10 @@
             <input matInput placeholder="Preço (R$)"
                 [value]="product.price" name="price" disabled>
         </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Estoque"
+                [value]="product.stock" name="stock" disabled>
+        </mat-form-field>
     </form>
 
     <button mat-raised-button (click)="deleteProduct()" color="warn">
